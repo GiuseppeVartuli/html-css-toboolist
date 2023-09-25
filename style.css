@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Tahoma, sans-serif;
+}
+main{
+    background-color: mediumaquamarine;
+}
 .titolo{
     padding: 1rem;
     display: inline-flex;
@@ -10,4 +16,29 @@
 .logo{
     width: 53px;
     height: 54px;
+}
+.contenitore_a{
+    padding: 3rem;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+}
+.contenitore_b{
+    background-color: white;
+}
+.task{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    height: 25px;
+    width: 75px;
+    border: 0;
+}
+.section{
+    color: grey;
+    background-color: white;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    border-color: grey;
 }
