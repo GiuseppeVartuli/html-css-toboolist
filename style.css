@@ -47,6 +47,7 @@ main{
     background-color: rgb(255, 255, 255);
     color: rgb(168, 166, 166);
     padding: 7px;
+    width: 90px;
     border-color: rgb(168, 166, 166);
 }
 .list{
