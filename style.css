@@ -39,13 +39,14 @@ main{
     border-radius: 5px;
     background-color: rgb(94, 94, 250);
     color: white;
-    padding: 5px;
+    padding: 7px;
+    border: 0;
 }
 .section{
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     color: rgb(168, 166, 166);
-    padding: 5px;
+    padding: 7px;
     border-color: rgb(168, 166, 166);
 }
 .list{
