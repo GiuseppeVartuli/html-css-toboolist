@@ -20,3 +20,8 @@ header{
     vertical-align: middle;
     display: inline-block;
 }
+main{
+    background-color: white;
+    width: 70%;
+    margin: 2rem auto ;
+}
