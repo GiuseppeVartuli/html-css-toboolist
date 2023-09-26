@@ -5,45 +5,18 @@
 }
 body {
     font-family: Tahoma, sans-serif;
-    background-color: grey;
+    background-color: rgb(169, 182, 178);
 }
 header{
     background-color: white;
 }
-main{
-
+.logo{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    vertical-align: middle;
 }
-
-h1{
+.titolo{
     vertical-align: middle;
     display: inline-block;
-    line-height: 150px;
-}
-.logo{
-    margin-left: 30px;
-    vertical-align: middle;
-}
-.contenitore_a{
-    padding: 3rem;
-    background-color: white;
-
-}
-.contenitore_b{
-    background-color: white;
-}
-.task{
-    color: white;
-    background-color: blue;
-    border-radius: 10px;
-    height: 25px;
-    width: 75px;
-    border: 0;
-}
-.section{
-    color: grey;
-    background-color: white;
-    border-radius: 10px;
-    height: 25px;
-    width: 100px;
-    border-color: grey;
 }
