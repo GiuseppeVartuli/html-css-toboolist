@@ -55,3 +55,12 @@ main{
     background-color: white;
     margin: auto;
 }
+.cerchio{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    background-color: green;
+}
