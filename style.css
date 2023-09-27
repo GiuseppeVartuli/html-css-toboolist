@@ -86,3 +86,39 @@ main{
     list-style-type: none;
     padding: 1rem;
 }
+.blu{
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.viola{
+    background-color: violet;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.verde{
+    background-color: green;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.arancio{
+    background-color: orange;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.rosa{
+    background-color: pink;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.verdino{
+    background-color: greenyellow;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
