@@ -8,7 +8,7 @@ body {
     background-color: rgb(169, 182, 178);
 }
 header{
-    height: 150px;
+    height: 80px;
     background-color: white;
 }
 .logo{
@@ -17,7 +17,7 @@ header{
     vertical-align: middle;
 }
 .titolo{
-    line-height: 150px;
+    line-height: 80px;
     vertical-align: middle;
     display: inline-block;
 }
