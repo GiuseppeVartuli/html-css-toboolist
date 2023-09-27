@@ -12,29 +12,43 @@
         <h1 class="titolo" >Toboolist</h1>
     </header>
     <nav>
-        <div class="button">
-            <button class="task">Add Task</button>
-            <button class="section">Add Section</button>
-        </div>
+            <div class="task">Add Task</div>
+            <div class="section">Add Section</div>
     </nav>
     <main>
         
         <div class="list">
             <div class="new_task">
                 
-                <ul>
+                <ul class="nodot">
                     <li>
                         <h4> &#8595; New Task</h4>
-                        <span> <span class="cerchio">&#10003;</span> Quarterly Newsletter</span>
+                        <div> <span class="cerchio">&#10003;</span> Quarterly Newsletter</div>
                     </li>
                 </ul>
                 
             </div>
             <div class="today">
-                <h4> &#8595; Today</h4>
+                <ul class="nodot">
+                    <li>
+                        <h4> &#8595; Today</h4>
+                        <div><span class="cerchio">&#10003;</span> Recruiting blog post</div>
+                        <div> <span class="cerchio">&#10003;</span> Mobile app launch</div>
+                        <div> <span class="croce">&#10007;</span> Interview John H.</div>
+                        <div> <span class="cerchio">&#10003;</span> Summit update to mobile storefronts</div>
+                    </li>
+                </ul>
             </div>
             <div class="upcoming">
-                <h4> &#8595; Upcoming</h4>
+                <ul class="nodot">
+                    <li>
+                        <h4> &#8595; Upcoming</h4>
+                        <div><span class="croce">&#10007;</span> Schedule meeting with Alex</div>
+                        <div> <span class="cerchio">&#10003;</span> Homepage refresh</div>
+                        <div> <span class="cerchio">&#10003;</span> Onboard new sales team members</div>
+                        <div> <span class="cerchio">&#10003;</span> Review editorial calender</div>
+                    </li>    
+                </ul>        
             </div>
         </div>
     </main>

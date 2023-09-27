@@ -8,15 +8,16 @@ body {
     background-color: rgb(169, 182, 178);
 }
 header{
+    height: 150px;
     background-color: white;
 }
 .logo{
+    height: 100px;
     margin-left: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     vertical-align: middle;
 }
 .titolo{
+    line-height: 150px;
     vertical-align: middle;
     display: inline-block;
 }
@@ -24,6 +25,7 @@ nav{
     background-color: white;
     width: 70%;
     margin: 2rem auto ;
+    padding: 1rem;
 }
 main{
     background-color: white;
@@ -36,6 +38,9 @@ main{
     
 }
 .task{
+    padding: 10px;
+    display: inline-block;
+    width: 80px;
     border-radius: 5px;
     background-color: rgb(94, 94, 250);
     color: white;
@@ -43,12 +48,14 @@ main{
     border: 0;
 }
 .section{
+    padding: 10px;
+    display: inline-block;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     color: rgb(168, 166, 166);
     padding: 7px;
-    width: 90px;
-    border-color: rgb(168, 166, 166);
+    width: 100px;
+    border: 1px solid rgb(168, 166, 166);
 }
 .list{
     width: 70%;
@@ -56,11 +63,26 @@ main{
     margin: auto;
 }
 .cerchio{
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     display: inline-block;
     border-radius: 50%;
     text-align: center;
     line-height: 15px;
-    background-color: green;
+    border: 1px solid green;
+    color: green;
+}
+.croce{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    border: 1px solid red;
+    color: red;
+}
+.nodot{
+    list-style-type: none;
+    padding: 1rem;
 }
